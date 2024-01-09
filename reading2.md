@@ -29,7 +29,7 @@ Lambda operates in the middle layer of abstraction. It's like a tool that lets y
 - Explore encryption mechanisms for data at rest and data in transit. This includes understanding techniques like encryption key management,
 - Familiarize with compliance standards (such as GDPR, HIPAA, SOC 2) and the governance frameworks (like NIST, CIS Benchmarks) applicable to an industry.
 
-# Sources:
+## Sources:
 - https://aws.amazon.com/blogs/architecture/compute-abstractions-on-aws-a-visual-story/
 - https://www.horangi.com/blog/13-compliance-frameworks-for-cloud-based-organizations
 - https://cloudsecurityalliance.org/
