@@ -11,25 +11,25 @@ Learning about system hardening with CIS standards is crucial as it provides a s
 
     1. Enhanced Security: CIS Benchmarks provide comprehensive, industry-accepted best practices for securing systems and networks. They offer specific guidelines and configurations to reduce vulnerabilities and mitigate common threats. By adhering to these benchmarks, organizations can strengthen their overall security posture, minimizing the risk of cyberattacks, data breaches, and unauthorized access.
 
-- Regulatory Compliance: Many regulatory standards and frameworks reference CIS Benchmarks as a recommended or required set of security practices. Following these benchmarks can aid in meeting compliance requirements such as those outlined in GDPR, HIPAA, PCI DSS, and others. Compliance not only reduces the risk of penalties but also ensures that systems and data are managed according to established industry standards.
+    2. Regulatory Compliance: Many regulatory standards and frameworks reference CIS Benchmarks as a recommended or required set of security practices. Following these benchmarks can aid in meeting compliance requirements such as those outlined in GDPR, HIPAA, PCI DSS, and others. Compliance not only reduces the risk of penalties but also ensures that systems and data are managed according to established industry standards.
 
-- Consistency and Standardization: CIS Benchmarks promote uniformity in security configurations across different systems and platforms. They provide detailed, step-by-step instructions for configuring various technologies, enabling organizations to maintain consistency in security measures across their infrastructure. This standardization simplifies management, troubleshooting, and auditing processes, leading to more efficient and effective security practices.
+    3. Consistency and Standardization: CIS Benchmarks promote uniformity in security configurations across different systems and platforms. They provide detailed, step-by-step instructions for configuring various technologies, enabling organizations to maintain consistency in security measures across their infrastructure. This standardization simplifies management, troubleshooting, and auditing processes, leading to more efficient and effective security practices.
 
 2. What are the seven core categories of CIS Benchmarks?
 
-- Operating Systems: This category includes guidelines and best practices for securing various operating systems like Windows, Linux, macOS, and others. It covers settings related to user authentication, access controls, network configurations, and more.
+    1. Operating Systems: This category includes guidelines and best practices for securing various operating systems like Windows, Linux, macOS, and others. It covers settings related to user authentication, access controls, network configurations, and more.
 
-- Cloud Computing: As cloud services become prevalent, CIS provides benchmarks for securing cloud platforms such as AWS, Azure, Google Cloud, and others. It includes recommendations for identity and access management, storage security, network settings, and data protection in the cloud environment.
+    2. Cloud Computing: As cloud services become prevalent, CIS provides benchmarks for securing cloud platforms such as AWS, Azure, Google Cloud, and others. It includes recommendations for identity and access management, storage security, network settings, and data protection in the cloud environment.
 
-- Network Devices: This category focuses on securing network devices like routers, switches, and firewalls. It includes configurations related to access controls, network segmentation, encryption, logging, and other network-specific security measures.
+    3. Network Devices: This category focuses on securing network devices like routers, switches, and firewalls. It includes configurations related to access controls, network segmentation, encryption, logging, and other network-specific security measures.
 
-- Databases: CIS Benchmarks offer guidelines for securing databases like MySQL, Oracle, SQL Server, and others. This covers configurations for access controls, encryption, patch management, auditing, and other database security best practices.
+    4. Databases: CIS Benchmarks offer guidelines for securing databases like MySQL, Oracle, SQL Server, and others. This covers configurations for access controls, encryption, patch management, auditing, and other database security best practices.
 
-- Containers: With the rise of containerization technologies like Docker and Kubernetes, CIS provides benchmarks to secure container environments. This includes recommendations for container image security, orchestration security, network isolation, and more.
+    5. Containers: With the rise of containerization technologies like Docker and Kubernetes, CIS provides benchmarks to secure container environments. This includes recommendations for container image security, orchestration security, network isolation, and more.
 
-- Mobile Devices: This category covers securing mobile devices such as smartphones and tablets. It includes recommendations for securing operating systems (iOS, Android), managing device settings, implementing encryption, and securing mobile applications.
+    6. Mobile Devices: This category covers securing mobile devices such as smartphones and tablets. It includes recommendations for securing operating systems (iOS, Android), managing device settings, implementing encryption, and securing mobile applications.
 
-- Web Browsers: CIS Benchmarks offer guidance for securing web browsers like Chrome, Firefox, Edge, etc. This includes configurations related to privacy settings, secure browsing practices, plug-in management, and other browser-specific security measures.
+    7. Web Browsers: CIS Benchmarks offer guidance for securing web browsers like Chrome, Firefox, Edge, etc. This includes configurations related to privacy settings, secure browsing practices, plug-in management, and other browser-specific security measures.
 
 3. How would you convince your manager that applying CIS Benchmarks could fast-track your organization’s compliance?
 
