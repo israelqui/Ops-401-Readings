@@ -5,7 +5,7 @@
 Learning about system hardening with CIS standards is crucial as it provides a systematic and proven approach to fortify our systems against cyber threats. Implementing these standards involves configuring systems according to industry-accepted best practices, reducing vulnerabilities, and minimizing the attack surface. By hardening systems using CIS benchmarks, we proactively strengthen our defenses, mitigating potential risks such as unauthorized access, data breaches, and system compromises. This not only bolsters our overall security posture but also aligns us with recognized industry standards, enhancing our ability to meet compliance requirements and ensuring a more resilient infrastructure against evolving threats.
 
 1. What are three benefits of following CIS Benchmarks?
-
+The three benefits of following CIS Benchmark are:
 
 1. Enhanced Security: CIS Benchmarks provide comprehensive, industry-accepted best practices for securing systems and networks. They offer specific guidelines and configurations to reduce vulnerabilities and mitigate common threats. By adhering to these benchmarks, organizations can strengthen their overall security posture, minimizing the risk of cyberattacks, data breaches, and unauthorized access.
 
