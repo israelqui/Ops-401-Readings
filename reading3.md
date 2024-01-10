@@ -95,7 +95,7 @@ Organizations need to continue to monitor for risks. How an organization decides
 
 Cyber risk analysis is like checking your home's security before leaving for a trip. Just as you'd inspect doors, windows, and alarms to prevent burglaries, cyber risk analysis examines digital "doors" (like networks and systems) for potential weaknesses. It's akin to ensuring your locks are strong, windows are secure, and alarms are functional—identifying and addressing vulnerabilities before leaving. This proactive approach reduces the chance of a break-in while you're away, much like how cyber risk analysis reduces the likelihood of digital breaches in your absence, safeguarding your digital assets.
 
-## Things I want to lean more about
+## Things I want to learn more about
 - Understand various cyber threats and vulnerabilities in digital systems.
 - Keeping up with with evolving threats.
 
