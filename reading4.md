@@ -9,11 +9,11 @@ Learning about system hardening with CIS standards is crucial as it provides a s
 
 The three benefits of following CIS Benchmark are:
 
-1. Enhanced Security: CIS Benchmarks provide comprehensive, industry-accepted best practices for securing systems and networks. They offer specific guidelines and configurations to reduce vulnerabilities and mitigate common threats. By adhering to these benchmarks, organizations can strengthen their overall security posture, minimizing the risk of cyberattacks, data breaches, and unauthorized access.
+- 1. Enhanced Security: CIS Benchmarks provide comprehensive, industry-accepted best practices for securing systems and networks. They offer specific guidelines and configurations to reduce vulnerabilities and mitigate common threats. By adhering to these benchmarks, organizations can strengthen their overall security posture, minimizing the risk of cyberattacks, data breaches, and unauthorized access.
 
-2. Regulatory Compliance: Many regulatory standards and frameworks reference CIS Benchmarks as a recommended or required set of security practices. Following these benchmarks can aid in meeting compliance requirements such as those outlined in GDPR, HIPAA, PCI DSS, and others. Compliance not only reduces the risk of penalties but also ensures that systems and data are managed according to established industry standards.
+- 2. Regulatory Compliance: Many regulatory standards and frameworks reference CIS Benchmarks as a recommended or required set of security practices. Following these benchmarks can aid in meeting compliance requirements such as those outlined in GDPR, HIPAA, PCI DSS, and others. Compliance not only reduces the risk of penalties but also ensures that systems and data are managed according to established industry standards.
 
-3. Consistency and Standardization: CIS Benchmarks promote uniformity in security configurations across different systems and platforms. They provide detailed, step-by-step instructions for configuring various technologies, enabling organizations to maintain consistency in security measures across their infrastructure. This standardization simplifies management, troubleshooting, and auditing processes, leading to more efficient and effective security practices.
+- 3. Consistency and Standardization: CIS Benchmarks promote uniformity in security configurations across different systems and platforms. They provide detailed, step-by-step instructions for configuring various technologies, enabling organizations to maintain consistency in security measures across their infrastructure. This standardization simplifies management, troubleshooting, and auditing processes, leading to more efficient and effective security practices.
 
 
 2. What are the seven core categories of CIS Benchmarks?
