@@ -15,7 +15,6 @@ The three benefits of following CIS Benchmark are:
 
 - Consistency and Standardization: CIS Benchmarks promote uniformity in security configurations across different systems and platforms. They provide detailed, step-by-step instructions for configuring various technologies, enabling organizations to maintain consistency in security measures across their infrastructure. This standardization simplifies management, troubleshooting, and auditing processes, leading to more efficient and effective security practices.
 
-
 2. What are the seven core categories of CIS Benchmarks?
 
 - Operating Systems: This category includes guidelines and best practices for securing various operating systems like Windows, Linux, macOS, and others. It covers settings related to user authentication, access controls, network configurations, and more.
