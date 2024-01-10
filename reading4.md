@@ -13,14 +13,14 @@ The three benefits of following CIS Benchmark are:
 
 - Regulatory Compliance: Many regulatory standards and frameworks reference CIS Benchmarks as a recommended or required set of security practices. Following these benchmarks can aid in meeting compliance requirements such as those outlined in GDPR, HIPAA, PCI DSS, and others. Compliance not only reduces the risk of penalties but also ensures that systems and data are managed according to established industry standards.
 
-- 3Consistency and Standardization: CIS Benchmarks promote uniformity in security configurations across different systems and platforms. They provide detailed, step-by-step instructions for configuring various technologies, enabling organizations to maintain consistency in security measures across their infrastructure. This standardization simplifies management, troubleshooting, and auditing processes, leading to more efficient and effective security practices.
+- Consistency and Standardization: CIS Benchmarks promote uniformity in security configurations across different systems and platforms. They provide detailed, step-by-step instructions for configuring various technologies, enabling organizations to maintain consistency in security measures across their infrastructure. This standardization simplifies management, troubleshooting, and auditing processes, leading to more efficient and effective security practices.
 
 
 2. What are the seven core categories of CIS Benchmarks?
 
-1. Operating Systems: This category includes guidelines and best practices for securing various operating systems like Windows, Linux, macOS, and others. It covers settings related to user authentication, access controls, network configurations, and more.
+- 1. Operating Systems: This category includes guidelines and best practices for securing various operating systems like Windows, Linux, macOS, and others. It covers settings related to user authentication, access controls, network configurations, and more.
 
-2. Cloud Computing: As cloud services become prevalent, CIS provides benchmarks for securing cloud platforms such as AWS, Azure, Google Cloud, and others. It includes recommendations for identity and access management, storage security, network settings, and data protection in the cloud environment.
+- 2. Cloud Computing: As cloud services become prevalent, CIS provides benchmarks for securing cloud platforms such as AWS, Azure, Google Cloud, and others. It includes recommendations for identity and access management, storage security, network settings, and data protection in the cloud environment.
 
 3. Network Devices: This category focuses on securing network devices like routers, switches, and firewalls. It includes configurations related to access controls, network segmentation, encryption, logging, and other network-specific security measures.
 
