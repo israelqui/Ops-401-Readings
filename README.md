@@ -4,3 +4,4 @@
 - [Strategic Policy Development](reading1.md)
 - [Cloud Security Principles and Frameworks](reading2.md)
 - [Cyber Risk Analysis](reading3.md)
+- [Systems Hardening with CIS Standards](reading4.md)
