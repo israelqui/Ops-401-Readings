@@ -2,6 +2,7 @@
 # Data File Encryption
 ## Why this topic matters?
 
+Understanding data file encryption is paramount in the realm of cybersecurity and data protection. It serves as a crucial tool for maintaining confidentiality by rendering sensitive information unreadable to unauthorized individuals. This capability not only safeguards against data breaches but also ensures compliance with regulatory requirements and industry standards. Encryption plays a vital role in preventing unauthorized access to files, especially during data transmission and on portable devices. Beyond the immediate benefits of confidentiality, it contributes to trust and reputation, as customers and partners are more likely to engage with organizations that prioritize the secure handling of their data. In the face of evolving cybersecurity threats, knowledge of encryption is essential for building resilient systems and protecting data throughout its lifecycle. Ultimately, data file encryption is a foundational aspect of modern cybersecurity practices, enhancing data security and bolstering organizational integrity.
 
 1. You have been made responsible for the company’s file server. How would you preserve the three elements of the CIA triad?
 
@@ -43,8 +44,10 @@ Hashing, in simple terms, is like turning a piece of information, such as a docu
 
 ## Analogy
 
-## Things I want to know more about:
+Imagine your data as a secret message written on a postcard that you want to send through the mail. Without encryption, it's like sending the postcard as is, readable to anyone who intercepts it. Now, picture encryption as putting that postcard inside a special lockbox before sending it. Only the person with the right key can open the lockbox and read the message. It ensures that even if someone snatches the postcard during delivery, they won't understand the contents because it's securely locked away. Encryption acts as the protective lockbox, turning your vulnerable postcard into a secure and private communication method.
 
+## Things I want to know more about:
+- Post quantum cyptography. 
 
 ## Sources:
 - https://www.jscape.com/blog/implementing-the-cia-triad-when-transferring-files-through-the-internet
