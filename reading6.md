@@ -27,13 +27,10 @@ Hashing, in simple terms, is like turning a piece of information, such as a docu
 
 3. How is hashing and encryption different?
 
+    1. hashing
 
-Hashing and encryption are both cryptographic techniques, but they serve different purposes and have distinct characteristics.
-
-    1. Hashing:
-
-- Purpose: Hashing is primarily used to verify data integrity. It transforms input data into a fixed-size string of characters, known as a hash value or hash code. The same input will always produce the same hash, but even a small change in the input will result in a significantly different hash. Hashing is a one-way process, meaning it cannot be reversed to obtain the original input.
--  Key Feature: It is deterministic and designed for quick and efficient verification. Common hash functions include SHA-256 or MD5.
+    - Purpose: Hashing is primarily used to verify data integrity. It transforms input data into a fixed-size string of characters, known as a hash value or hash code. The same input will always produce the same hash, but even a small change in the input will result in a significantly different hash. Hashing is a one-way process, meaning it cannot be reversed to obtain the original input.
+    -  Key Feature: It is deterministic and designed for quick and efficient verification. Common hash functions include SHA-256 or MD5.
 
 
     2. Encryption:
@@ -42,7 +39,7 @@ Hashing and encryption are both cryptographic techniques, but they serve differe
     - Key Feature: It involves the use of keys for both encryption and decryption. Common encryption algorithms include AES (Advanced Encryption Standard) and RSA.
 
 
-In summary, hashing is one-way and designed for data integrity verification, while encryption is a two-way process used to secure data by making it unreadable without the appropriate key. Hashing doesn't provide confidentiality, and encrypted data can be decrypted with the right key.
+    In summary, hashing is one-way and designed for data integrity verification, while encryption is a two-way process used to secure data by making it unreadable without the appropriate key. Hashing doesn't provide confidentiality, and encrypted data can be decrypted with the right key.
 
 ## Analogy
 
