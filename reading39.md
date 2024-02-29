@@ -24,7 +24,7 @@ Learning about SQL injection is crucial because it equips individuals with the k
 
         2. Injecting Malicious SQL Code: Instead of entering a valid username and password, the hacker enters something like this into the username field:
 
-            ' OR '1'='1
+                ' OR '1'='1
 
         The resulting SQL query becomes:
 
