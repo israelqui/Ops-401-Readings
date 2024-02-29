@@ -16,6 +16,7 @@ Learning about SQL injection is crucial because it equips individuals with the k
 
             "SELECT * FROM users WHERE username = 'input_username' AND password = 'input_password';"
 
+
             The website takes user input for the username and password fields and directly inserts them into the SQL query without proper validation or sanitization, making it vulnerable to SQL injection.
 
     - Now, here's how a hacker could exploit this vulnerability:
