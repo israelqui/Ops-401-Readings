@@ -14,7 +14,7 @@ Learning about SQL injection is crucial because it equips individuals with the k
 
     - Suppose we have a website with a login form that uses SQL queries to check user credentials against a database. The SQL query might look something like this:
 
-    'SELECT * FROM users WHERE username = 'input_username' AND password = 'input_password';'
+        SELECT * FROM users WHERE username = 'input_username' AND password = 'input_password';
 
         The website takes user input for the username and password fields and directly inserts them into the SQL query without proper validation or sanitization, making it vulnerable to SQL injection.
 
@@ -24,11 +24,12 @@ Learning about SQL injection is crucial because it equips individuals with the k
 
         2. Injecting Malicious SQL Code: Instead of entering a valid username and password, the hacker enters something like this into the username field:
 
-        ' OR '1'='1
+            ' OR '1'='1
 
         - The resulting SQL query becomes:
 
         SELECT * FROM users WHERE username = '' OR '1'='1' AND password = 'input_password';
+
         1. Exploiting the Vulnerability: The injected SQL code '1'='1' always evaluates to true, effectively bypassing the password check. This means the query will return the first user found in the database, granting access to the account associated with that user.
         2. Unauthorized Access: The hacker successfully logs in without providing a valid password, gaining unauthorized access to the system.
 
