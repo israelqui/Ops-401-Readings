@@ -22,9 +22,9 @@ Mimikatz is a critical topic in cybersecurity as it represents a potent tool use
 
         Pass-the-Hash (PtH) and Pass-the-Ticket (PtT) are two of the most commonly used techniques by attackers.
 
-        In Pass-the-Hash (PtH), once an attacker gains administrative privileges on a system, they can use tools like Mimikatz to extract the NTLM password hashes from the memory of the LSASS process. These hashes can then be used to authenticate to other systems on the network without needing the actual plaintext passwords. This works because Windows systems use NTLM hashes for authentication, and if an attacker has the hash, they can pass it along as if it were the actual password.
+        1. In Pass-the-Hash (PtH), once an attacker gains administrative privileges on a system, they can use tools like Mimikatz to extract the NTLM password hashes from the memory of the LSASS process. These hashes can then be used to authenticate to other systems on the network without needing the actual plaintext passwords. This works because Windows systems use NTLM hashes for authentication, and if an attacker has the hash, they can pass it along as if it were the actual password.
 
-        In Pass-the-Ticket (PtT), Mimikatz extracts Kerberos tickets from memory, which are used for authentication in a Windows domain environment. Kerberos tickets contain encrypted authentication data that can be used to access various network resources without needing to provide a username and password. Mimikatz allows attackers to steal these tickets from memory and then reuse them to authenticate to other systems within the network, effectively impersonating legitimate users.
+        2. In Pass-the-Ticket (PtT), Mimikatz extracts Kerberos tickets from memory, which are used for authentication in a Windows domain environment. Kerberos tickets contain encrypted authentication data that can be used to access various network resources without needing to provide a username and password. Mimikatz allows attackers to steal these tickets from memory and then reuse them to authenticate to other systems within the network, effectively impersonating legitimate users.
 
 
 2. What are four ways we can defend against Mimikatz attacks. Explain how two of the mitigations can stop Mimikatz.
