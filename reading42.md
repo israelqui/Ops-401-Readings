@@ -20,11 +20,11 @@ Mimikatz is a critical topic in cybersecurity as it represents a potent tool use
 
     6. Pass-the-Cache: Mimikatz can also extract cached credentials from memory, including plaintext passwords, which are stored by various Windows authentication protocols. These credentials can then be reused to authenticate as the compromised user.
 
-    Pass-the-Hash (PtH) and Pass-the-Ticket (PtT) are two of the most commonly used techniques by attackers.
+        Pass-the-Hash (PtH) and Pass-the-Ticket (PtT) are two of the most commonly used techniques by attackers.
 
-    In Pass-the-Hash (PtH), once an attacker gains administrative privileges on a system, they can use tools like Mimikatz to extract the NTLM password hashes from the memory of the LSASS process. These hashes can then be used to authenticate to other systems on the network without needing the actual plaintext passwords. This works because Windows systems use NTLM hashes for authentication, and if an attacker has the hash, they can pass it along as if it were the actual password.
+        In Pass-the-Hash (PtH), once an attacker gains administrative privileges on a system, they can use tools like Mimikatz to extract the NTLM password hashes from the memory of the LSASS process. These hashes can then be used to authenticate to other systems on the network without needing the actual plaintext passwords. This works because Windows systems use NTLM hashes for authentication, and if an attacker has the hash, they can pass it along as if it were the actual password.
 
-    In Pass-the-Ticket (PtT), Mimikatz extracts Kerberos tickets from memory, which are used for authentication in a Windows domain environment. Kerberos tickets contain encrypted authentication data that can be used to access various network resources without needing to provide a username and password. Mimikatz allows attackers to steal these tickets from memory and then reuse them to authenticate to other systems within the network, effectively impersonating legitimate users.
+        In Pass-the-Ticket (PtT), Mimikatz extracts Kerberos tickets from memory, which are used for authentication in a Windows domain environment. Kerberos tickets contain encrypted authentication data that can be used to access various network resources without needing to provide a username and password. Mimikatz allows attackers to steal these tickets from memory and then reuse them to authenticate to other systems within the network, effectively impersonating legitimate users.
 
 
 2. What are four ways we can defend against Mimikatz attacks. Explain how two of the mitigations can stop Mimikatz.
@@ -37,11 +37,11 @@ Mimikatz is a critical topic in cybersecurity as it represents a potent tool use
 
     4. Monitor for Anomalous Activity: Implementing robust monitoring and detection mechanisms can help identify and respond to Mimikatz attacks in real-time. This includes monitoring for suspicious or unusual behavior such as unauthorized access attempts, abnormal authentication patterns, and attempts to access sensitive systems or resources. By continuously monitoring for signs of compromise, organizations can detect and mitigate Mimikatz attacks before they result in data breaches or other security incidents.
 
-    - Two of these mitigations, Credential Guard and Windows Defender Credential Guard, effectively prevent Mimikatz attacks by utilizing virtualization-based security to protect sensitive credential information from unauthorized access:
+        Two of these mitigations, Credential Guard and Windows Defender Credential Guard, effectively prevent Mimikatz attacks by utilizing virtualization-based security to protect sensitive credential information from unauthorized access:
 
-    1. Credential Guard: By isolating and securing the LSASS process in a secure enclave using virtualization-based security, Credential Guard prevents Mimikatz from directly accessing and extracting sensitive credential information from memory. Even if an attacker gains access to the system, they won't be able to retrieve plaintext passwords or hashes, significantly mitigating the risk of credential theft.
+        1. Credential Guard: By isolating and securing the LSASS process in a secure enclave using virtualization-based security, Credential Guard prevents Mimikatz from directly accessing and extracting sensitive credential information from memory. Even if an attacker gains access to the system, they won't be able to retrieve plaintext passwords or hashes, significantly mitigating the risk of credential theft.
 
-    2. Windows Defender Credential Guard: Similar to Credential Guard, Windows Defender Credential Guard enhances the security of credential information by securely storing it in a virtualized environment that is isolated from the rest of the operating system. This prevents Mimikatz and other credential theft tools from accessing sensitive credential information, making it much more difficult for attackers to perform credential theft attacks.
+        2. Windows Defender Credential Guard: Similar to Credential Guard, Windows Defender Credential Guard enhances the security of credential information by securely storing it in a virtualized environment that is isolated from the rest of the operating system. This prevents Mimikatz and other credential theft tools from accessing sensitive credential information, making it much more difficult for attackers to perform credential theft attacks.
 
 ## Analogy
 
