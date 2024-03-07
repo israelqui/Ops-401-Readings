@@ -21,22 +21,25 @@ Sniffing and evasion are important in cybersecurity because they play critical r
 
     1. Passive Sniffing:
 
-        Explanation: Passive sniffing involves monitoring network traffic without altering or injecting any packets into the network. The attacker simply listens to the data packets as they pass through the network.
-            Pros:
+        - Explanation: Passive sniffing involves monitoring network traffic without altering or injecting any packets into the network. The attacker simply listens to the data packets as they pass through the network.
+
+            - Pros:
                 Stealthy: Since passive sniffing doesn't actively interact with the network, it's less likely to be detected by security measures.
                 Low risk: There's minimal risk of disrupting network operations or causing noticeable changes.
                 Simple: Passive sniffing typically requires less effort and expertise compared to active sniffing techniques.
-            Cons:
+            - Cons:
                 Limited access: Passive sniffing may not capture all network traffic, especially encrypted data or traffic on switched networks.
                 No control: The attacker cannot modify or manipulate the traffic flow, limiting the scope of potential attacks.
+
     2. Active Sniffing:
 
-        Explanation: Active sniffing involves injecting packets into the network to manipulate traffic or force devices to reveal more information. This can include techniques like ARP poisoning or DNS spoofing.
-            Pros:
+        - Explanation: Active sniffing involves injecting packets into the network to manipulate traffic or force devices to reveal more information. This can include techniques like ARP poisoning or DNS spoofing.
+
+            - Pros:
                 Comprehensive: Active sniffing techniques allow attackers to capture and manipulate a wider range of network traffic, including encrypted data.
                 Control: Attackers can actively manipulate network traffic to suit their objectives, such as conducting man-in-the-middle attacks.
                 Greater visibility: Active sniffing may provide more insight into network vulnerabilities and potential attack vectors.
-            Cons:
+            - Cons:
                 Higher risk: Active sniffing can disrupt network operations and raise suspicion, increasing the likelihood of detection.
                 Increased complexity: Implementing active sniffing techniques requires more advanced technical knowledge and skill.
                 Potential legal consequences: Manipulating network traffic without authorization may violate laws or policies, leading to legal repercussions.
